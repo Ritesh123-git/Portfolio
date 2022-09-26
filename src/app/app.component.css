@@ -1,0 +1,19 @@
+.center{
+    text-align: center;
+    
+}
+h1{
+    border: 3px solid green;
+}
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: blue;
+  }

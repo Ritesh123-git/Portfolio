@@ -1,0 +1,19 @@
+
+<div style="background-color: lightblue; font-size: large; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <h2>Log in Here</h2>
+    <form [formGroup]="loginRef" (ngSubmit)="checkUser()">
+        <div class="mb-3">
+        <label>Email Id</label>
+        <input type="email" formControlName="email"/><br/>
+        <label>Password</label>
+        <input type="password" formControlName="pass"/><br/>
+        <input type="submit"  value="Submit"/>
+        <input type="reset" value="Reset"/>
+    </div>
+    </form>
+    <br/>
+    <span style="color:red">{{msg}}</span> 
+    <br/>
+    
+   
+</div>
